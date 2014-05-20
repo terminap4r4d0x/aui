@@ -12,7 +12,7 @@ You can try it first with a `virtualbox`
 ## How to get it
 ### With git
 - Upgrade your system and install git: `pacman -Syu & pacman -S git`
-- get the script: `git clone git://github.com/helmuthdu/aui`
+- get the script: `git clone https://github.com/terminap4r4d0x/aui.git 
 
 ### Without git
 - Upgrade your system: `pacman -Syu`
