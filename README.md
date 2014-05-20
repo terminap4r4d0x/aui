@@ -1,9 +1,7 @@
-# Archlinux Ultimate Install Script
+#Unattended Arch Install
+## Based on Archlinux Ultimate Install Script
 
-Install and configure archlinux has never been easier!
-
-You can try it first with a `virtualbox`
-
+My intial objective is an unattended install of a completely configured Arch system with Openbox as the WM. As such this will be configured to suit only my individual taste.
 ## Prerequisites
 
 - A working internet connection
@@ -13,12 +11,6 @@ You can try it first with a `virtualbox`
 ### With git
 - Upgrade your system and install git: `pacman -Syu & pacman -S git`
 - get the script: `git clone https://github.com/terminap4r4d0x/aui.git 
-
-### Without git
-- Upgrade your system: `pacman -Syu`
-- get the script: ` wget --no-check-certificate https://github.com/helmuthdu/aui/tarball/master -O - | tar xz`
-    - an alternate URL (for less typing) is ` wget --no-check-certificate http://bit.ly/NoUPC6 -O - | tar xz`
-    - super short `wget ow.ly/wnFgh -o aui.zip`
 
 ## How to use
 - ais mode: `cd <dir> && ./ais`
@@ -69,4 +61,3 @@ You can try it first with a `virtualbox`
 - Install and configure Web Servers
 - Many More...
 
-If you like my work, please consider a small Paypal donation at helmuthdu@gmail.com :)
